@@ -19,9 +19,7 @@
           padding-top:10px ;
           color: gray;
         }
-        &-icon{
-          text-align: center;
-        }
+        
     }
     &-class-list{
       height: calc( (100vh - 180px) / 2 );
@@ -61,15 +59,15 @@
       background-color: orange;
         &-classname{
           display: flex;
-          font-size: 30px;
+          font-size: 50px;
           font-family: fantasy;
           color: gray;
           margin-left: 250px;
+          position: relative;
+          top: 15px;
            
         }
-        &-member{
-          font-family: fantasy;
-        }
+       
     }
     &_space{
       height: calc( 100vh - 180px);
