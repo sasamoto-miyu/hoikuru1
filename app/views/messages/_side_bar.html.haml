@@ -1,7 +1,10 @@
 .side_bar
   .side_bar-login-user
     .side_bar-login-user-name
-      ABC保育園
+      = current_user.name
+    .side_bar-login-user-icon
+      = link_to edit_user_path(current_user) do
+        = icon('fas', 'cog', class: 'icon')
   .side_bar-class-list
     .side_bar-class-list-icon
       %i.fas.fa-pen-square
@@ -11,7 +14,7 @@
     .side_bar-sensei-list-icon
       %i.fas.fa-pen-square
     .side_bar-sensei-list-senseiname
-      今月の献立
+      高橋なおこ
   .side_bar-photo
     .side_bar-photo-icon
       %i.fas.fa-pen-square
