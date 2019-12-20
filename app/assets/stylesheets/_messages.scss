@@ -65,6 +65,7 @@
           font-family: fantasy;
           color: gray;
           margin-left: 250px;
+           
         }
         &-member{
           font-family: fantasy;
@@ -95,6 +96,7 @@
         background-color: white;
         position: relative;
         top: 10px;
+        display: flex;
         
       }
       &-send{
@@ -110,4 +112,24 @@
         }
       }
     }
+}
+
+.aaa{
+  height: 100px;
+  width: 50px;
+  position: relative;
+  left: 50px;
+}
+
+.writer-space{
+  height: 60px;
+  width: calc( 100vw - 450px );
+}
+
+.bbb{
+  display: none;
+  }
+
+.input-box__image{
+  font-size: 30px;
 }
